@@ -1,5 +1,3 @@
-from collections import Counter 
-
 with open(r"FlatFiles/1262020.txt","r") as my_file:
     allAnswers = my_file.read()
     chunked = allAnswers.split("\n\n")
